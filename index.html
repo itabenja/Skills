@@ -206,35 +206,29 @@
         </div>
       </div>
 
-      <!-- Visual: Hero graphic -->
+      <!-- Visual: Hero photo -->
       <div class="relative flex justify-center lg:justify-end reveal d2">
         <div class="absolute inset-0 bg-blue-500/15 blur-3xl rounded-full"></div>
 
-        <div class="relative float-anim w-72 h-72 sm:w-80 sm:h-80">
-          <!-- Outer ring -->
-          <div class="absolute inset-0 rounded-full border border-blue-500/20 spin-slow"></div>
-          <div class="absolute inset-4 rounded-full border border-dashed border-blue-400/10 spin-slow" style="animation-direction:reverse;animation-duration:30s"></div>
+        <div class="relative float-anim">
+          <!-- Glow ring -->
+          <div class="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500/30 to-indigo-500/20 blur-2xl scale-110"></div>
 
-          <!-- Central card -->
-          <div class="absolute inset-8 glass2 rounded-2xl flex flex-col items-center justify-center p-4 text-center">
-            <!-- Photo -->
-            <div class="w-20 h-20 rounded-full mb-3 overflow-hidden border-2 border-blue-500/40 bg-gradient-to-br from-blue-600 to-indigo-600 flex-shrink-0">
-              <img src="profile.jpg" alt="Benjamin Lorenzen" class="w-full h-full object-cover object-top" />
-            </div>
-            <div class="font-display font-bold text-white text-sm">Benjamin</div>
-            <div class="text-[11px] text-blue-400 font-medium">IT Arch. · AI</div>
+          <!-- Profile photo -->
+          <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-2 border-blue-500/40 shadow-2xl shadow-blue-500/20">
+            <img src="profile.jpg" alt="Benjamin Lorenzen" class="w-full h-full object-cover object-top" />
           </div>
 
           <!-- Orbit badges -->
-          <div class="absolute -top-2 left-1/2 -translate-x-1/2 glass rounded-lg px-2.5 py-1.5 text-center shadow-lg">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 glass rounded-lg px-2.5 py-1.5 text-center shadow-lg">
             <div class="text-[10px] text-slate-400">Fine-tuned</div>
             <div class="font-display font-bold text-blue-400 text-sm">Qwen LLM</div>
           </div>
-          <div class="absolute top-1/2 -left-6 -translate-y-1/2 glass rounded-lg px-2.5 py-1.5 text-center shadow-lg">
+          <div class="absolute top-1/2 -left-10 -translate-y-1/2 glass rounded-lg px-2.5 py-1.5 text-center shadow-lg">
             <div class="text-[10px] text-slate-400">Stack</div>
             <div class="font-display font-bold text-cyan-400 text-sm">C# · .NET</div>
           </div>
-          <div class="absolute top-1/2 -right-6 -translate-y-1/2 glass rounded-lg px-2.5 py-1.5 text-center shadow-lg">
+          <div class="absolute top-1/2 -right-10 -translate-y-1/2 glass rounded-lg px-2.5 py-1.5 text-center shadow-lg">
             <div class="text-[10px] text-slate-400">Focus</div>
             <div class="font-display font-bold text-indigo-400 text-sm">Gen AI</div>
           </div>
